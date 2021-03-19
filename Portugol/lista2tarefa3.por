@@ -25,7 +25,7 @@ programa
 		quadradoN4 = Mat.potencia(n4,2)
 
 		se (quadradoN3 >= 1000) {
-			escreva("O resultado do quadrado do terceiro número é " + quadradoN3)
+			escreva("O resultado do quadrado do terceiro número " + n3 + " é " + quadradoN3)
 		}
 		senao 
 		{
@@ -41,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 519; 
+ * @POSICAO-CURSOR = 614; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
