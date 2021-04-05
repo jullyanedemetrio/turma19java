@@ -33,7 +33,7 @@ public class Tarefa7 {
 		System.out.println("O valor de x: " + x);
 		System.out.println("O valor de y: " + y);
 		
-		
+		leia.close();
 	}
 
 }

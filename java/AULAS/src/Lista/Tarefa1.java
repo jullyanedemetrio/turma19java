@@ -23,6 +23,8 @@ public class Tarefa1 {
 		idadeEmDias = anosEmDias + mesesEmDias + dias;
 		
 		System.out.println("Você está vivo há " + idadeEmDias + " dias");
+		
+		leia.close();
 	}
 
 }

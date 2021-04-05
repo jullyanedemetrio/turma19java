@@ -27,5 +27,6 @@ public class Tarefa3 {
 		//Saida
 		System.out.printf("Horas: %.0f \nMinutos: %.0f \nSegundos: %.0f" ,horas, minutos,segundos);
 		
+		leia.close();
 	}
 }

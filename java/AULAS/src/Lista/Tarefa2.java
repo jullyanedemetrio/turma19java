@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Tarefa2 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		int idade; 
 		int anos, meses, dias;
@@ -21,6 +20,7 @@ public class Tarefa2 {
 		
 		System.out.println("Você tem " + anos + " anos, " + meses + " meses e " + dias + " dias. ");
 		
+		leia.close();
 	}
 
 }

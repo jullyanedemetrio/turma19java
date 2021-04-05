@@ -23,5 +23,7 @@ public class Tarefa4 {
 		d = ((r + s) / 2);
 		
 		System.out.println("O valor de D é " + d);
+		
+		leia.close();
 	}
 }

@@ -26,6 +26,7 @@ public class Tarefa8 {
 		System.out.println("Impostos: " + impostos + " reais");
 		System.out.println("Custo ao consumidor: " + custoConsumidor + " reais");
 
+		leia.close();
 	}
 
 }

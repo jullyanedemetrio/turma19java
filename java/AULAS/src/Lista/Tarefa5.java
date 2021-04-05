@@ -20,6 +20,6 @@ public class Tarefa5 {
 		mediaFinal = (((nota1 * 2) + (nota2 * 3) + (nota3 * 5)) / 10);
 		
 		System.out.printf("Média Final: %.1f",mediaFinal);
-		
+		leia.close();
 	}
 }
