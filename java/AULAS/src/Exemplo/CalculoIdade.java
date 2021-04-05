@@ -22,6 +22,7 @@ public class CalculoIdade {
 		
 		//saida
 		System.out.println("A soma é " + soma);
+		leia.close();
 	}
 
 }

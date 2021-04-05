@@ -17,6 +17,7 @@ public class TemperaturaF {
 		TemperaturaF = ((TemperaturaC * 1.8) + 32);
 		
 		System.out.printf("Temperatura em F:  %.2f", TemperaturaF);
+		leia.close();
 	}
 
 }
