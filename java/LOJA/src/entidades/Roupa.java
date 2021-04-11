@@ -2,16 +2,16 @@ package entidades;
 
 public class Roupa extends Produto {
 
-	//Atributos
+	// Atributos
 	private String marca;
 
-	//Construtor
-	public Roupa(String descricao, String codigo, double valorUnitario, String marca) {
-		super(descricao, codigo, valorUnitario);
+	// Construtor
+	public Roupa(String descricao, String codigo, double valorUnitario, int qtdeEstoque, String marca) {
+		super(descricao, codigo, valorUnitario, qtdeEstoque);
 		this.marca = marca;
 	}
 
-	//Encapsulamento
+	// Encapsulamento
 	public String getMarca() {
 		return marca;
 	}
@@ -19,8 +19,4 @@ public class Roupa extends Produto {
 	public void setMarca(String marca) {
 		this.marca = marca;
 	}
-	
-	
-	
-	
 }
